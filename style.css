@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main img{
+    width: 303px;
+    margin: 0 15px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://dinamicambiental.com.br/wp-content/uploads/2021/06/o-oceano-e-a-nossa-sobrevivencia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(80, 158, 236);
+}
+
+form, button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 0.5px;
+}
+
+input{
+    padding: 0.5px;
+    text-align: center;
+}
